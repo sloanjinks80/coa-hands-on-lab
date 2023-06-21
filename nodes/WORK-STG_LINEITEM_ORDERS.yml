@@ -116,30 +116,6 @@ steps:
                     stepCounter: 4f63e4ac-7c10-471f-a086-9284f406a054
                 transform: ""
           - columnReference:
-              columnCounter: 80373fb5-c972-4cf0-8615-976a7b4bf302
-              stepCounter: d338cbd3-5a19-48b0-ba54-6bec5c4c9da9
-            dataType: NUMBER(38,0)
-            description: ""
-            name: PS_AVAILQTY
-            nullable: false
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: 9e739825-8c79-4e04-8035-00ce0ed0dffe
-                    stepCounter: 6a6fb12e-596c-4981-98b0-08db48b16069
-                transform: ""
-          - columnReference:
-              columnCounter: 89fae9e4-627d-4f2a-8b36-bbbf9175af6a
-              stepCounter: d338cbd3-5a19-48b0-ba54-6bec5c4c9da9
-            dataType: NUMBER(12,2)
-            description: ""
-            name: PS_SUPPLYCOST
-            nullable: false
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: d1b4afcb-dc25-40c8-935a-1d8b2c71aa11
-                    stepCounter: 6a6fb12e-596c-4981-98b0-08db48b16069
-                transform: ""
-          - columnReference:
               columnCounter: b8c31f36-44ff-4095-b704-ac8c52967e3a
               stepCounter: d338cbd3-5a19-48b0-ba54-6bec5c4c9da9
             dataType: VARCHAR(15)
@@ -348,6 +324,30 @@ steps:
               - columnReferences:
                   - columnCounter: 5c1c16d1-3c2c-44c7-a474-bc5d3ade183c
                     stepCounter: 9b838fbc-3b31-4a21-9cdc-4e60f87b775a
+                transform: ""
+          - columnReference:
+              columnCounter: 1f3d4493-c80e-4862-ac54-e364915786e3
+              stepCounter: d338cbd3-5a19-48b0-ba54-6bec5c4c9da9
+            dataType: NUMBER(38,0)
+            description: ""
+            name: PS_AVAILQTY
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 9e739825-8c79-4e04-8035-00ce0ed0dffe
+                    stepCounter: 6a6fb12e-596c-4981-98b0-08db48b16069
+                transform: ""
+          - columnReference:
+              columnCounter: 371dfaef-b11f-457d-bf9a-8c7c09287caa
+              stepCounter: d338cbd3-5a19-48b0-ba54-6bec5c4c9da9
+            dataType: NUMBER(12,2)
+            description: ""
+            name: PS_SUPPLYCOST
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: d1b4afcb-dc25-40c8-935a-1d8b2c71aa11
+                    stepCounter: 6a6fb12e-596c-4981-98b0-08db48b16069
                 transform: ""
           - columnReference:
               columnCounter: b7c76c01-6ff7-48b6-8252-c06939fd9116
